@@ -1,0 +1,97 @@
+:root {
+
+    --violet: #7F4292;
+    --white: #ffffff;
+    --black: #000000;
+    --gray: #9c9c9c;
+    
+    --big: 2rem;
+    --middle: 1.2rem;
+    --small: 0.9rem;
+
+
+}
+
+
+.text {
+    
+    color: var(--violet);
+    font-size: var(--middle);
+    background: green;
+
+}
+h1 {
+    font-size: var(--big);
+    color: var(--violet)
+    }
+
+h2 {
+    font-size: var(--middle);
+    color: var(--violet);
+    padding-top: 1rem;
+    font-weight: 700;
+}
+
+h3 {
+
+    font-size: var(--gray);
+    font-weight: 700;
+    padding: 0.4rem 0 0 0;
+
+}
+
+
+#main {
+padding-top: 1rem;
+
+}
+
+.btext { 
+
+font-size: var(--middle);
+font-weight: 700;
+display: block;
+padding: 0.5rem 0 0rem 0;
+
+
+}
+
+.place {
+
+    font-size: var(--small);
+    font-weight: 700;
+    font-style: italic;
+    display: block;
+}
+
+.rrr {padding-bottom: 0.5rem;}
+
+.time {
+
+    font-size: var(--small);
+    font-weight: 500;
+    display: block;
+
+}
+
+.res {
+
+    display: block;
+    padding: 0.3rem 0 0 1rem;
+}
+
+.job {
+padding-top: 0.5rem;
+}
+
+.test {
+
+background: var(--gray);
+
+}
+
+.test2 {
+
+background: blue;
+
+}
