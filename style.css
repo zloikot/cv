@@ -43,8 +43,9 @@ h3 {
 
 #main {
 padding-top: 1rem;
-
 }
+
+
 
 .btext { 
 
@@ -52,6 +53,13 @@ font-size: var(--middle);
 font-weight: 700;
 display: block;
 padding: 0.5rem 0 0rem 0;
+
+
+}
+.name {
+
+padding-bottom: 0.5rem;
+border-bottom: solid 1px var(--violet);
 
 
 }
@@ -84,6 +92,18 @@ padding: 0.5rem 0 0rem 0;
 padding-top: 0.5rem;
 }
 
+.divider {
+
+
+display: inline;
+padding: 0 1rem 0 1rem;
+color: var(--violet);
+font-weight: 300;
+
+}
+
+
+
 .test {
 
 background: var(--gray);
@@ -95,3 +115,4 @@ background: var(--gray);
 background: blue;
 
 }
+
